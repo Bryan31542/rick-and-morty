@@ -50,3 +50,24 @@
     font-size: 1rem;
     padding-bottom: 0.2rem;
 }
+
+.heart-icon {
+    height: 20px;
+    width: 20px;
+    color: #DA0037;
+    padding-right: 1rem;
+}
+
+.alive {
+    color: #00FF00;
+    height: 16px;
+    width: 20px;
+    padding-right: 0.2rem;
+
+}
+
+.status {
+    margin-top: 0.1rem;
+    display: flex;
+    align-items: center;
+}
