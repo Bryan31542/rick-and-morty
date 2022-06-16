@@ -19,12 +19,21 @@ const App = () => {
       .catch((err) => console.log(err));
   };
 
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const onPrevious = () => {
     fetchCharacters(info.prev);
+    goToTop();
   };
 
   const onNext = () => {
     fetchCharacters(info.next);
+    goToTop();
   };
 
   useEffect(() => {
