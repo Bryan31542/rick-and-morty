@@ -4,6 +4,7 @@ import Character from "./components/Character/Character";
 import Pagination from "./components/Pagination/Pagination";
 
 const App = () => {
+
   const [characters, setCharacters] = useState([]);
   const [info, setInfo] = useState({});
 
